@@ -1,7 +1,7 @@
 {
 	"id": "imengyu-IMDebuggerWindow",
 	"displayName": "App内置调试输出窗口-调试工具",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "一款调试工具，方便您在APP上无法连接电脑时查看Console，网络请求，报错，Storage。",
 	"keywords": [
         "网络请求",

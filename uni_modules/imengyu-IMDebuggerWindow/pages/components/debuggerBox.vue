@@ -128,7 +128,7 @@
 			uni.$on('debugger-refresh-app-err', () => this.loadErrorList());
 			uni.$on('debugger-refresh-vue-err', () => this.loadErrorList());
 			uni.$on('debugger-refresh-log', (removeFirst) => {
-				const arr = getApp().globalData.debuggerNetworkLogData;
+				const arr = getApp().globalData.debuggerLogData;
 				if(removeFirst)
 					this.logList.unshift();
 				this.logList.push(this.solveLogItem(arr[arr.length - 1]));
